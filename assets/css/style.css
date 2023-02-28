@@ -1,4 +1,4 @@
-/*
+/*old-color: #B56952
 @File: Atoli HTML Template
 
 * This file contains the styling for the actual template, this
@@ -214,7 +214,7 @@ Default Btn Style
 }
 
 .btn-bg-one {
-  background-color: #B56952;
+  background-color: #DC3545;
 }
 
 .btn-bg-two {
@@ -236,7 +236,7 @@ Section Title Style
   text-transform: capitalize;
   padding-bottom: 5px;
   margin: 0;
-  color: #B56952;
+  color: #DC3545;
 }
 
 .section-title h2 {
@@ -332,11 +332,11 @@ Top Header
 }
 
 .header-right ul li:hover i {
-  color: #B56952;
+  color: #DC3545;
 }
 
 .header-right ul li:hover a {
-  color: #B56952;
+  color: #DC3545;
 }
 
 .language-list {
@@ -408,13 +408,13 @@ Top Header
 
 .language-list .nice-select .list .option:hover {
   background-color: transparent !important;
-  color: #B56952;
+  color: #DC3545;
 }
 
 .language-list .nice-select .list .option .selected {
   background-color: transparent !important;
   font-weight: 400;
-  color: #B56952 !important;
+  color: #DC3545 !important;
 }
 
 .language-list .nice-select:after {
@@ -455,7 +455,7 @@ Navbar Area
 }
 
 .main-nav nav .navbar-nav .nav-item:hover a, .main-nav nav .navbar-nav .nav-item .active {
-  color: #B56952 !important;
+  color: #DC3545 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item a {
@@ -474,11 +474,11 @@ Navbar Area
 }
 
 .main-nav nav .navbar-nav .nav-item a:hover, .main-nav nav .navbar-nav .nav-item a :focus {
-  color: #B56952 !important;
+  color: #DC3545 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item a.active {
-  color: #B56952 !important;
+  color: #DC3545 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item a .active::before {
@@ -521,16 +521,16 @@ Navbar Area
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
   border-radius: 0;
-  color: #B56952 !important;
+  color: #DC3545 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
-  color: #B56952 !important;
+  color: #DC3545 !important;
   border-radius: 0;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li.active {
-  color: #B56952 !important;
+  color: #DC3545 !important;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -658,7 +658,7 @@ Navbar Area
 }
 
 .side-nav-responsive .dot-menu:hover .circle-inner .circle {
-  background-color: #B56952;
+  background-color: #DC3545;
 }
 
 .side-nav-responsive .container {
@@ -790,13 +790,13 @@ Navbar Area
 
 .side-nav-responsive .side-nav-inner .side-nav .option-item .language-option-list .nice-select .list .option:hover {
   background-color: transparent !important;
-  color: #B56952;
+  color: #DC3545;
 }
 
 .side-nav-responsive .side-nav-inner .side-nav .option-item .language-option-list .nice-select .list .option .selected {
   background-color: transparent !important;
   font-weight: 400;
-  color: #B56952 !important;
+  color: #DC3545 !important;
 }
 
 .side-nav-responsive .side-nav-inner .side-nav .option-item .language-option-list .nice-select:after {
@@ -818,7 +818,7 @@ Navbar Area
 }
 
 .side-nav-responsive .side-nav-inner .side-nav .option-item .menu-icon .menu-icon-one:hover {
-  color: #B56952;
+  color: #DC3545;
 }
 
 .sticky-nav {
@@ -933,13 +933,13 @@ Navbar Area
 
 .option-item .language-nav-list .nice-select .list .option:hover {
   background-color: transparent !important;
-  color: #B56952;
+  color: #DC3545;
 }
 
 .option-item .language-nav-list .nice-select .list .option .selected {
   background-color: transparent !important;
   font-weight: 400;
-  color: #B56952 !important;
+  color: #DC3545 !important;
 }
 
 .option-item .language-nav-list .nice-select:after {
@@ -1201,7 +1201,7 @@ Sidebar Modal
 Main Banner Area
 ====================================*/
 .banner-area {
-  background-image: url(../img/home-one.jpg);
+  background-image: url(../img/home-one\ \(2\).jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1219,8 +1219,8 @@ Main Banner Area
   width: 100%;
   height: 100%;
   /* height: 400px!important; */
-  background-image: -webkit-gradient(linear, left top, right top, from(#ffffff85), to(#ffffff00));
-  background-image: linear-gradient(to right, #ffffff85, #ffffff00);
+  /* background-image: -webkit-gradient(linear, left top, right top, from(#ffffff85), to(#ffffff00)); */
+  /* background-image: linear-gradient(to right, #ffffff85, #ffffff00); */
   z-index: -1;
 }
 
@@ -1236,14 +1236,21 @@ Main Banner Area
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #292323;
+  /* color: #292323; */
+  color: white;
+  text-shadow: 0.5px 0.5px 1px #000000 ;
 
 }
 
 .banner-content p {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.5;
+  word-spacing: 2px;
+  font-weight: 400;
   margin-bottom: 30px;
-  color: #292323;
+  /* color: #292323; */
+  color: white;
+  text-shadow: 0.5px 0.5px 1px #000000 ;
 }
 
 .banner-area-three {
@@ -1394,7 +1401,7 @@ Banner Form Area
   margin-bottom: 0px;
   padding-left: 20px;
   border-radius: 50px;
-  background-color: #B56952;
+  background-color: #DC3545;
   color: #ffffff;
   z-index: 1;
 }
@@ -1422,7 +1429,7 @@ Banner Form Area
 }
 
 .banner-form .nice-select .list .option:hover {
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
   color: #ffffff;
 }
 
@@ -1625,7 +1632,7 @@ About Area
 
 .about-content ul li i {
   font-size: 50px;
-  color: #B56952;
+  color: #DC3545;
   position: absolute;
   top: -10px;
   left: 0;
@@ -1704,7 +1711,7 @@ About Area
   margin-bottom: 20px;
   padding-left: 20px;
   border-radius: 50px;
-  background-color: #B56952;
+  background-color: #DC3545;
   color: #ffffff;
 }
 
@@ -1730,7 +1737,7 @@ About Area
 }
 
 .about-content .about-form .nice-select .list .option:hover {
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
   color: #ffffff;
 }
 
@@ -1965,7 +1972,7 @@ Services Area
 
 .services-area .owl-nav .owl-prev:hover {
   color: #ffffff !important;
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
 }
 
 .services-area .owl-nav .owl-next {
@@ -1989,7 +1996,7 @@ Services Area
 
 .services-area .owl-nav .owl-next:hover {
   color: #ffffff !important;
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
 }
 
 .services-item {
@@ -2014,7 +2021,7 @@ Services Area
   height: 100px;
   background-color: #ffffff;
   font-size: 65px;
-  color: #B56952;
+  color: #DC3545;
   border-radius: 50px;
   line-height: 100px;
   display: inline-block;
@@ -2038,7 +2045,7 @@ Services Area
 
 .services-item .get-btn {
   display: inline-block;
-  color: #B56952;
+  color: #DC3545;
   font-weight: 500;
   margin-bottom: 0;
   position: relative;
@@ -2052,7 +2059,7 @@ Services Area
   height: 1px;
   left: 0;
   right: 0;
-  background-color: #B56952;
+  background-color: #DC3545;
   -webkit-transition: 0.9s;
   transition: 0.9s;
   opacity: 0.5;
@@ -2712,7 +2719,7 @@ Specialty Area
   height: 85px;
   line-height: 85px;
   background-color: #ffffff;
-  color: #B56952;
+  color: #DC3545;
   display: inline-block;
   text-align: center;
   border-radius: 50px;
@@ -2784,7 +2791,7 @@ Room Area
 
 .room-card .content ul li {
   font-size: 16px;
-  color: #B56952;
+  color: #DC3545;
   display: inline-block;
   margin-right: 20px;
   position: relative;
@@ -2804,7 +2811,7 @@ Room Area
   position: absolute;
   top: 7px;
   right: -12px;
-  background-color: #B56952;
+  background-color: #DC3545;
   width: 2px;
   height: 15px;
   -webkit-transform: rotate(20deg);
@@ -2816,7 +2823,7 @@ Room Area
   top: 24px;
   right: 20px;
   font-size: 16px;
-  color: #B56952;
+  color: #DC3545;
   display: inline-block;
 }
 
@@ -3120,7 +3127,7 @@ Room Area
   margin-bottom: 20px;
   padding-left: 20px;
   border-radius: 50px;
-  background-color: #B56952;
+  background-color: #DC3545;
   color: #ffffff;
 }
 
@@ -3144,7 +3151,7 @@ Room Area
 }
 
 .side-bar-form .nice-select .list .option:hover {
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
   color: #ffffff;
 }
 
@@ -3411,7 +3418,7 @@ Testimonials Area
 
 .testimonials-area .owl-nav .owl-prev:hover {
   color: #ffffff !important;
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
 }
 
 .testimonials-area .owl-nav .owl-next {
@@ -3435,7 +3442,7 @@ Testimonials Area
 
 .testimonials-area .owl-nav .owl-next:hover {
   color: #ffffff !important;
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
 }
 
 .testimonials-item {
@@ -3446,7 +3453,7 @@ Testimonials Area
 }
 
 .testimonials-item i {
-  color: #B56952;
+  color: #DC3545;
   font-size: 40px;
   line-height: 1;
   margin-bottom: 20px;
@@ -3741,7 +3748,7 @@ Faq Area
 .faq-content .faq-accordion .accordion .accordion-item {
   display: block;
   margin-bottom: 15px;
-  border: 1px solid #B56952;
+  border: 1px solid #DC3545;
 }
 
 .faq-content .faq-accordion .accordion .accordion-item:last-child {
@@ -3769,7 +3776,7 @@ Faq Area
   font-size: 24px;
   width: 30px;
   height: 30px;
-  color: #B56952;
+  color: #DC3545;
   text-align: center;
   line-height: 30px;
   background-color: transparent;
@@ -4119,7 +4126,7 @@ User All Form
 }
 
 .user-all-form .contact-form .account-desc a {
-  color: #B56952;
+  color: #DC3545;
 }
 
 .user-all-form .contact-form .account-desc a:hover {
@@ -4161,7 +4168,7 @@ Team Area
 
 .team-area .owl-nav .owl-prev:hover {
   color: #ffffff !important;
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
 }
 
 .team-area .owl-nav .owl-next {
@@ -4185,7 +4192,7 @@ Team Area
 
 .team-area .owl-nav .owl-next:hover {
   color: #ffffff !important;
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
 }
 
 .team-item {
@@ -4580,7 +4587,7 @@ Booking Area
   margin-bottom: 20px;
   padding-left: 20px;
   border-radius: 50px;
-  background-color: #B56952;
+  background-color: #DC3545;
   color: #ffffff;
 }
 
@@ -4604,7 +4611,7 @@ Booking Area
 }
 
 .booking-form .nice-select .list .option:hover {
-  background-color: #B56952 !important;
+  background-color: #DC3545 !important;
   color: #ffffff;
 }
 
@@ -4986,7 +4993,7 @@ Blog Area
 
 .blog-card .blog-content span {
   font-size: 16px;
-  color: #B56952;
+  color: #DC3545;
   margin-bottom: 10px;
 }
 
@@ -5007,7 +5014,7 @@ Blog Area
 }
 
 .blog-card .blog-content .read-btn {
-  color: #B56952;
+  color: #DC3545;
   display: block;
 }
 
@@ -5916,11 +5923,11 @@ Footer Area
 }
 
 .footer-widget .footer-list-contact li:hover i {
-  color: #B56952;
+  color: #DC3545;
 }
 
 .footer-widget .footer-list-contact li:hover a {
-  color: #B56952;
+  color: #DC3545;
 }
 
 .footer-widget .footer-list {
@@ -5952,7 +5959,7 @@ Footer Area
 }
 
 .footer-widget .footer-list li a:hover {
-  color: #B56952;
+  color: #DC3545;
 }
 
 .footer-widget .footer-form .form-group {
@@ -5994,7 +6001,7 @@ Footer Area
 
 .copy-right-area {
   padding: 15px 0;
-  border-top: 1px solid #B56952;
+  border-top: 1px solid #DC3545;
 }
 
 .copy-right-area .copy-right-text p {
@@ -6008,8 +6015,8 @@ Footer Area
 }
 
 .copy-right-area .copy-right-text p a:hover {
-  color: #B56952;
-  border-color: #B56952;
+  color: #DC3545;
+  border-color: #DC3545;
 }
 
 .copy-right-area .social-icon .social-link {
@@ -6085,9 +6092,9 @@ Back To Top Button
 }
 
 .top-btn:hover {
-  background-color: #B56952;
-  -webkit-box-shadow: 0 0 15px #B56952;
-          box-shadow: 0 0 15px #B56952;
+  background-color: #DC3545;
+  -webkit-box-shadow: 0 0 15px #DC3545;
+          box-shadow: 0 0 15px #DC3545;
 }
 
 /*==============================
