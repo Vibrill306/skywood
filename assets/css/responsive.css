@@ -1,5 +1,12 @@
 @media only screen and (max-width: 767px) {
   /* Default CSS */
+
+  .switch-box {
+    position: fixed;
+    top: 15px!important;
+    right: 150px!important;
+    z-index: 9999;
+  }
   body {
     font-size: 14px;
   }
@@ -125,10 +132,10 @@
   }
   /* Navbar CSS End */
   /* Main Banner CSS End */
-  .banner-area::before {
-    background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff4a));
-    background-image: linear-gradient(to right, #ffffff, #ffffff4a);
-  }
+  /* .banner-area::before { */
+    /* background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff4a));
+    background-image: linear-gradient(to right, #ffffff, #ffffff4a); */
+  /* } */
   .banner-content {
     padding: 140px 0 80px;
     margin-left: auto;
@@ -660,7 +667,7 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  
+ 
   .header-right ul li {
     margin-right: 10px;
   }
@@ -833,10 +840,10 @@
   }
   /* Navbar CSS End */
   /* Main Banner CSS */
-  .banner-area::before {
-    background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff4a));
-    background-image: linear-gradient(to right, #ffffff, #ffffff4a);
-  }
+  /* .banner-area::before { */
+    /* background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff4a));
+    background-image: linear-gradient(to right, #ffffff, #ffffff4a); */
+  /* } */
   .banner-content {
     padding: 140px 0 140px;
     margin-left: auto;
