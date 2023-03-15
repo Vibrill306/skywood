@@ -54,6 +54,16 @@ body {
   font-weight: 400;
 }
 
+/* Edit Myself */
+
+.banner-area h1{
+  font-size: 2.5rem!important;
+}
+
+.about-area .section-title h2{
+  
+}
+
 p {
   color: #555555;
 }
