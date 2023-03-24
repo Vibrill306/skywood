@@ -60,10 +60,19 @@ body {
   font-size: 2.5rem!important;
 }
 
-.about-area .section-title h2{
-  
+
+
+.about-area .about-content .section-title span{
+  font-size: 36px;
+  font-weight: 600;
 }
 
+.reservation-area .section-title h2{
+  font-size: 32px;
+  /* font-weight: 700;
+  text-align: justify; */
+}
+ 
 p {
   color: #555555;
 }
@@ -1952,11 +1961,17 @@ Services Area
 ====================================*/
 .services-area {
   position: relative;
+  background-color: #043E32;
+}
+
+.services-area .section-title span{
+  color: #fff;
 }
 
 .services-area .section-title h2 {
   max-width: 650px;
   margin: 0 auto;
+  color: #fff;
 }
 
 .services-area .owl-nav {
@@ -2632,15 +2647,26 @@ Ability Area End
 /*=================================
 Specialty Area 
 ====================================*/
+
+.specialty-area {
+  background-color: #043E32;
+}
+.specialty-area .section-title span{
+  color: #fff;
+}
 .specialty-area .section-title h2 {
   max-width: 540px;
   margin: 0 auto;
+  color: #fff;
 }
 
 .specialty-img {
   margin-bottom: 30px;
   position: relative;
   z-index: 1;
+  /* box-shadow: #fff 1px 1px 20px; */
+  border: 3px #fff solid;
+  border-radius: 50px;
 }
 
 .specialty-img::before {
@@ -5883,7 +5909,7 @@ Coming Soon Area End
 Footer Area
 ====================================*/
 .footer-bg {
-  background-color: #000;
+  background-color: #043E32;
 }
 
 .footer-widget {
@@ -5938,11 +5964,11 @@ Footer Area
 }
 
 .footer-widget .footer-list-contact li:hover i {
-  color: #043E32;
+  color: #000;
 }
 
 .footer-widget .footer-list-contact li:hover a {
-  color: #043E32;
+  color: #000;
 }
 
 .footer-widget .footer-list {
@@ -5974,7 +6000,7 @@ Footer Area
 }
 
 .footer-widget .footer-list li a:hover {
-  color: #043E32;
+  color: #000;
 }
 
 .footer-widget .footer-form .form-group {
@@ -6006,6 +6032,11 @@ Footer Area
 .footer-widget .footer-form .default-btn {
   width: 100%;
   border: none;
+  background-color: #000;
+}
+
+.footer-widget .footer-form .default-btn:hover{
+  background-color: #043E32;
 }
 
 .footer-widget .footer-form .validation-danger {
