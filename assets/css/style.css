@@ -91,6 +91,14 @@ body {
 }
 
 
+.room{
+  background-image: url('../img/room/room.jpg');
+  background-size: cover;
+  background-position: cenetr;
+  
+}
+
+
 /* ----------------------------------------------------------------------------- */
 p {
   color: #555555;
