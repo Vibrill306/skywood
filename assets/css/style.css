@@ -95,7 +95,34 @@ body {
   background-image: url('../img/room/room.jpg');
   background-size: cover;
   background-position: cenetr;
-  
+
+}
+
+.luxury-room{
+  background-image: url('../img/room/LUXARY-4.jpg');
+  background-size: cover;
+  background-position: cenetr;
+
+}
+
+.single-room{
+  background-image: url('../img/room/SINGAL-ROOM.jpg');
+  background-size: cover;
+  background-position: cenetr;
+
+}
+
+.bg-green{
+  background-color: #043E32;
+  color: #fff;
+}
+.testimonials-area .white{
+  color: #fff;
+}
+
+
+.deluxe-room{
+  background-image: url('../img/room/DELUXE.jpg');
 }
 
 
