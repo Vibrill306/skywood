@@ -121,9 +121,39 @@ body {
 }
 
 
+
+.pb-20{
+  padding-bottom: 20px;
+}
+
+.pt-70{
+  padding-top: 70px;
+}
+
 .deluxe-room{
   background-image: url('../img/room/DELUXE.jpg');
 }
+
+.premium-room{
+  background-image: url('../img/room/premium-1.jpg');
+}
+
+.club-room{
+  background-image: url('../img/room/CLUB-banner.jpg');
+}
+
+.contact{
+  background-image: url('../img/room/CONTACT.jpg');
+}
+
+.blog{
+  background-image: url('../img/room/BLOG.jpg');
+}
+
+.gallery{
+  background-image: url('../img/room/GALLLERY.jpg');
+}
+
 
 
 /* ----------------------------------------------------------------------------- */
@@ -1274,7 +1304,7 @@ Sidebar Modal
 Main Banner Area
 ====================================*/
 .banner-area {
-  background-image: url(../img/carousel-1.jpg);
+  background-image: url(../img/room/GALLLERY.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4002,7 +4032,7 @@ Contact Area
 }
 
 .contact-form {
-  padding: 50px 30px;
+  padding: 30px 30px;
   max-width: 800px;
   position: relative;
   z-index: 1;
