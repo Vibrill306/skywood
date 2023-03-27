@@ -49,7 +49,8 @@ Default CSS
 body {
   font-size: 16px;
   line-height: 1.8;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family:Arial, Helvetica, sans-serif;
   color: #555555;
   font-weight: 400;
 }
@@ -83,12 +84,18 @@ body {
   border-radius: 50px;
 }
 
-.about-content ul li .content h2{
+.home-about{
+  /* border-radius: 75px; */
+}
+
+/* .about-content ul li .content h2{
 
   font-size: 22px;
   font-weight: 800;
   margin-bottom: 5px;
-}
+} */
+
+
 
 
 .room{
@@ -186,7 +193,7 @@ button:focus {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #292323;
-  font-family: "Noto Serif", serif;
+  /* font-family: "Noto Serif", serif; */
   line-height: 1.4;
 }
 
@@ -233,6 +240,9 @@ img {
 
 .pt-45 {
   padding-top: 45px;
+}
+.pb-35 {
+  padding-bottom: 35px;
 }
 
 .pt-20 {
