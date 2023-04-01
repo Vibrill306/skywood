@@ -1,3 +1,4 @@
+
 const mongoose = require('mongoose');
 const db_link = 'mongodb+srv://admin:IVaCDFjcRtf5oF3z@cluster0.rcbcaho.mongodb.net/?retryWrites=true&w=majority'
 
@@ -26,12 +27,12 @@ const skywoodSchema = new mongoose.Schema({
         required :true,
     },
     checkIn:{
-        type:String,
-        required :true,
+        type:Date,
+        required:true
     },
     checkOut:{
-        type:String,
-        required:true,
+        type:Date,
+        required:true
     },
     person:{
         type:Number,

@@ -21,6 +21,8 @@ module.exports.sendMail=async function sendMail(str,data) {
     Here are your details-
     Name - ${data.name}<br>
     Email - ${data.email}<br>
+    Persons - ${data.person}<br>
+    Rooms - ${data.rooms}<br>
     Check-In Date - ${data.checkIn}<br>
     Check-Out Date - ${data.checkOut}<br>`
   } 
