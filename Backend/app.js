@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({
 }))
 
 
-app.post('/skywood', function(req, res) {
+app.post('/', function(req, res) {
     const user = {
       name: req.body.name,
       email: req.body.email,
